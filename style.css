@@ -265,3 +265,27 @@ ul li
 
 
 }
+
+.Videos
+{
+    font-family: tahoma;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+.TUNES
+{
+    font-family: tahoma;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
+
+.games
+{
+    font-family: tahoma;
+    font-size: 100px;
+    color: white;
+    text-align: center;
+}
