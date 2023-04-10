@@ -5,9 +5,9 @@ a:active { text-decoration: none; }
 html
 {
     height: 100%;
-    /*background-image: linear-gradient(rgb(53, 21, 112),rgb(0, 0, 0)); */ 
+    background-image: linear-gradient(rgb(16, 2, 70),rgb(0, 0, 0)); 
     background-attachment: fixed;
-    background-color: black;
+    /*background-color: black; */
 }
 
 body{
@@ -32,86 +32,86 @@ body{
 #tunes
 {
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
     box-shadow: inset 0 0 0 0 #a91fcc;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1vw;
+    padding-right: 1vw;
     
 }
 
 #tunes:hover
 {
-    box-shadow: inset 360px 0 0 0 #ffffff;
+    box-shadow: inset 20vw 0 0 0 #ffffff;
     color: rgb(39, 0, 90);
 }
 
 #shows
 {
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
     box-shadow: inset 0 0 0 0 #a91fcc;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1vw;
+    padding-right: 1vw;
     
 }
 
 #shows:hover
 {
-    box-shadow: inset 390px 0 0 0 #ffffff;
+    box-shadow: inset 25vw 0 0 0 #ffffff;
     color: rgb(39, 0, 90);
 }
 
 #games
 {
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
     box-shadow: inset 0 0 0 0 #a91fcc;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 #games:hover
 {
-    box-shadow: inset 370px 0 0 0 #ffffff;
+    box-shadow: inset 20vw 0 0 0 #ffffff;
     color: rgb(39, 0, 90);
 }
 
 #video
 {
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
     box-shadow: inset 0 0 0 0 #a91fcc;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 #video:hover
 {
-    box-shadow: inset 340px 0 0 0 #ffffff;
+    box-shadow: inset 20vw 0 0 0 #ffffff;
     color: rgb(39, 0, 90);
 }
 
@@ -119,8 +119,8 @@ body{
 {
     position: absolute;
     width: 20vw;
-    border: 10px solid rgb(40, 2, 61);
-    padding: 30px;
+    border: 1vw solid rgb(40, 2, 61);
+    padding: 1vw;
     opacity: 1;
     text-align: center;
     float:left;
@@ -132,8 +132,8 @@ body{
 {
     position: absolute;
     width: 20vw;
-    border: 10px solid rgb(40, 2, 61);
-    padding: 30px;
+    border: 1vw solid rgb(40, 2, 61);
+    padding: 1vw;
     opacity: 1;
     text-align: center;
     float:right;
@@ -168,8 +168,9 @@ ul li
 
 .spotify
 {
-    height: 100px;
-    width: 100px;
+    position: relative;
+    height: 6vw;
+    width: 6vw;
     filter: invert(100%);
 } 
 
@@ -177,16 +178,16 @@ ul li
 {
     position: relative;
     top: -20px;
-    height: 60px;
-    width: 70px;
+    height: 4vw;
+    width: 4vw;
     filter: invert(100%);
 } 
 
 .instagram
 {
     position: relative;
-    height: 60px;
-    width: 60px;
+    height: 4vw;
+    width: 4vw;
     top: -20px;
     left: 15px;
     filter: invert(100%);
@@ -198,7 +199,7 @@ ul li
 .upcomingShows
 {
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
 }
@@ -208,11 +209,11 @@ ul li
 .showList
 {
     position: relative;
-    top: 100px;
+    top: 1vw;
     margin: auto;
     width: 90vw;
-    border: 10px solid rgb(40, 2, 61);
-    padding: 30px;
+    border: 1vw solid rgb(40, 2, 61);
+    padding: 1vw;
     opacity: 1;
     text-align: center;
     
@@ -221,12 +222,12 @@ ul li
 .show
 {
     font-family: tahoma;
-    font-size: 60px;
+    font-size: 3vw;
     color: white;
     text-align: center;
     transition: color .3s ease-in-out;
-    padding-left: 25px;
-    padding-right: 35px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 
@@ -246,8 +247,8 @@ ul li
     position: relative;
     left: 100px;
     top: -45px;
-    height: 300px;
-    width: 300px;
+    height: 15vw;
+    width: 15vw;
     filter: invert(100);
     float: left;
 }
@@ -257,8 +258,8 @@ ul li
     position: relative;
     right: 100px;
     top: -45px;
-    width: 300px;
-    height: 300px;
+    height: 15vw;
+    width: 15vw;
     filter: invert(100);
     float:right;
 
@@ -268,7 +269,7 @@ ul li
 .Videos
 {
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
 }
@@ -276,7 +277,7 @@ ul li
 .TUNES
 {
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
 }
@@ -284,7 +285,7 @@ ul li
 .games
 {
     font-family: tahoma;
-    font-size: 100px;
+    font-size: 5vw;
     color: white;
     text-align: center;
 }
@@ -292,11 +293,11 @@ ul li
 .gameList
 {
     position: relative;
-    top: 100px;
+    top: 1vw;
     margin: auto;
     width: 90vw;
-    border: 10px solid rgb(40, 2, 61);
-    padding: 30px;
+    border: 1vw solid rgb(40, 2, 61);
+    padding: 1vw;
     opacity: 1;
     text-align: center;
     
@@ -305,16 +306,21 @@ ul li
 .game
 {
     font-family: tahoma;
-    font-size: 60px;
+    font-size: 3vw;
     color: white;
     text-align: center;
     transition: color .3s ease-in-out;
-    padding-left: 25px;
-    padding-right: 35px;
+    padding-left: 1vw;
+    padding-right: 1vw;
 }
 
 
 .game:hover
 {
     color: rgb(141, 89, 209);
+}
+
+@media (max-width: 500px)
+{
+    
 }
