@@ -27,11 +27,12 @@ body{
     width: 40vw;
     filter: invert(100%);
     left:30%;
+    top: 8vw;
 }
 
 #tunes
 {
-    font-family: tahoma;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vw;
     color: white;
     text-align: center;
@@ -50,11 +51,11 @@ body{
 
 #shows
 {
-    font-family: tahoma;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vw;
     color: white;
     text-align: center;
-    font-family: tahoma;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vw;
     color: white;
     text-align: center;
@@ -73,11 +74,11 @@ body{
 
 #games
 {
-    font-family: tahoma;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vw;
     color: white;
     text-align: center;
-    font-family: tahoma;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vw;
     color: white;
     text-align: center;
@@ -95,11 +96,11 @@ body{
 
 #video
 {
-    font-family: tahoma;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vw;
     color: white;
     text-align: center;
-    font-family: tahoma;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 5vw;
     color: white;
     text-align: center;
@@ -152,10 +153,11 @@ body{
     text-align: center;
     font-family: tahoma;
     color: white;
-    width: 100%;
+    width: 97vw;
     height: 10%;
-    position: relative;
-    left: -50px;
+    position: fixed;
+    background-color: black;
+    z-index: 2;
 }
 
 ul li
@@ -169,6 +171,7 @@ ul li
 .spotify
 {
     position: relative;
+    top: -1.5vw;
     height: 6vw;
     width: 6vw;
     filter: invert(100%);
@@ -177,7 +180,7 @@ ul li
 .facebook
 {
     position: relative;
-    top: -20px;
+    top: -2.5vw;
     height: 4vw;
     width: 4vw;
     filter: invert(100%);
@@ -188,7 +191,7 @@ ul li
     position: relative;
     height: 4vw;
     width: 4vw;
-    top: -20px;
+    top: -2.5vw;
     left: 15px;
     filter: invert(100%);
 }
@@ -318,6 +321,14 @@ ul li
 .game:hover
 {
     color: rgb(141, 89, 209);
+}
+
+.instagramEmbed
+{
+    position: relative;
+    top: 50vw;
+    left: 35vw;
+    
 }
 
 @media (max-width: 500px)

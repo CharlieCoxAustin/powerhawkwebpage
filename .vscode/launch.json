@@ -5,11 +5,12 @@
     "version": "0.2.0",
     "configurations": [
 
+
         {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:/Users/Charlie/OneDrive/Desktop/WebDev Practice/PowerHawkWebPage/mainPage.html",
+            "url": "C:/Users/Charlie/OneDrive/Desktop/WebDev Practice/PowerHawkWebPage/powerhawkwebpage/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
